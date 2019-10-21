@@ -1,5 +1,9 @@
 # About
-This repository is the code corresponding to paper "Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries", published at the 29th Usenix Security Symbosium. Arxiv version can be found at [here](https://arxiv.org/abs/1908.07000). The code is tested on Python3.6. TensorFlow version is 1.7.0 and Keras version is 2.2.4. You will need a GPU to run the code efficiently. Batch attack related scripts are written in Matlab and are executed locally (scripts are tested on Matlab 2018b, but should be compatible with most of the Matlab versions). The codes are grouped by the datasets for clarity. **To Artifact Evaluation Committee: a note of "For AEC Artifact Evaluation:" is also added to the relevant Matlab scripts and please follow the specific instructions.** 
+This repository is the code corresponding to paper "Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries", published at the 29th USENIX Security Symposium (available at [https://arxiv.org/abs/1908.07000](https://arxiv.org/abs/1908.07000). 
+
+The code is tested on Python3.6. TensorFlow version is 1.7.0 and Keras version is 2.2.4. You will need a GPU to run the code efficiently. Batch attack related scripts are written in Matlab and are executed locally (scripts are tested on Matlab 2018b, but should be compatible with most of the Matlab versions). The codes are grouped by the datasets for clarity. 
+
+**To Artifact Evaluation Committee: a note of "For AEC Artifact Evaluation:" is also added to the relevant Matlab scripts and please follow the specific instructions.** 
 
 # Install Dependencies
 You can directly install the depencies by running the following command:
@@ -16,4 +20,4 @@ To reproduce our results, please follow the steps below:
 
 # Incorporate New Attack into our Framework
 
-To incorporate new black-box attack into our framework, please see our tutorial folder for more instruction.
+To incorporate a new black-box attack into our framework, please see the [tutorial folder](/tutorial).
